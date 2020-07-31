@@ -6,6 +6,7 @@ using ThisneyTicket.Application.ViewModel;
 namespace ThisneyTicket.API.Controllers
 {
     [ApiController]
+    [Route("Event")]
     public class EventController : ControllerBase
     {
         private readonly IEventService _eventService;
