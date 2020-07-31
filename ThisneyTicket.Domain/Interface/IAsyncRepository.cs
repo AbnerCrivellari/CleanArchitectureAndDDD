@@ -9,7 +9,7 @@ namespace ThisneyTicket.Domain.Interface
     public interface IAsyncRepository<T> where T : Base, IEntityConfig
     {
         Task<T> GetByIdAsync(int id);
-        Task<IReadOnlyList<T>> ListAllAsync();
+        Task<IEnumerable<T>> ListAllAsync();
         Task<T> AddAsync(T entity);
         Task UpdateAsync(T entity);
         Task DeleteAsync(T entity);
