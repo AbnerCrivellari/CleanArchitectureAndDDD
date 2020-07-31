@@ -30,13 +30,13 @@ Para executar os seguintes comandos, é necessário está na pasta onde a soluç
 
 Após realizar alterações na configuração da entidade (Ex: UserConfiguration) é necessário criar uma nova migração com os campos alterados, essa ação pode ser realizada com a seguinte instrução:
 
-dotnet ef migrations add [NomeDaMigracao] -s ErrorCentral.API -p ErrorCentral.Infrastructure/
+dotnet ef migrations add [NomeDaMigracao] -s ThisneyTicket.API -p ThisneyTicket.Infrastructure/
 Caso queira remover as migrações que foram geradas é necessário executar o próximo comando (Só é possível remover se elas não estiverem no banco de dados):
 
-dotnet ef migrations remove -s ThisneyTicket.API -p ErrorCentral.Infrastructure
+dotnet ef migrations remove -s ThisneyTicket.API -p ThisneyTicket.Infrastructure
 Para que as atualizações criadas na migrate sejam feitas no banco de dados execute o seguinte comando:
 
-dotnet ef database update -s ThisneyTicket.API -p ErrorCentral.Infrastructure
+dotnet ef database update -s ThisneyTicket.API -p ThisneyTicket.Infrastructure
 Gerar um script sql das alterações contidas na migrate:
 
 dotnet ef migrations script -s ThisneyTicket.API
