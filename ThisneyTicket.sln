@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{A3313CC2-6E35-41A6-AF56-C8A0983D465A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{95B9B1B6-1A80-4C9D-8435-57C3A07FD3D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{02B9BA6D-0804-458E-B098-41E6DC371F0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infraestructure", "4-Infraestructure", "{0C60299F-D738-4785-B2D9-E3BE6B76283E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisneyTicket.API", "ThisneyTicket.API\ThisneyTicket.API.csproj", "{31799F60-E168-4BB3-BDE1-82CB43D8C78F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisneyTicket.Application", "ThisneyTicket.Application\ThisneyTicket.Application.csproj", "{0652C687-7A9A-44D8-95D5-9DCAB43B4B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisneyTicket.Domain", "ThisneyTicket.Domain\ThisneyTicket.Domain.csproj", "{555B86CE-2EFB-4D68-AB45-31ED755F621D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisneyTicket.Infra.Data", "ThisneyTicket.Infra.Data\ThisneyTicket.Infra.Data.csproj", "{A279DD19-6AF8-4200-B144-2E22A1CF7C64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-UnitTest", "5-UnitTest", "{BF3BA055-2CA4-4FFC-A5E4-2FEBB7BFC8F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisneyTicket.IntegrationTest", "ThisneyTicket.IntegrationTest\ThisneyTicket.IntegrationTest.csproj", "{C5DE13E1-CE30-4A53-B52D-F3B6447AC637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisneyTicket.UnitTest", "ThisneyTicket.UnitTest\ThisneyTicket.UnitTest.csproj", "{2630083D-03F6-4DFC-AED2-65DDFE222E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisneyTicket.FunctinalTest", "ThisneyTicket.FunctinalTest\ThisneyTicket.FunctinalTest.csproj", "{49D8541A-21BD-4884-9E78-F3D611AE2E08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31799F60-E168-4BB3-BDE1-82CB43D8C78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31799F60-E168-4BB3-BDE1-82CB43D8C78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31799F60-E168-4BB3-BDE1-82CB43D8C78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31799F60-E168-4BB3-BDE1-82CB43D8C78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0652C687-7A9A-44D8-95D5-9DCAB43B4B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0652C687-7A9A-44D8-95D5-9DCAB43B4B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0652C687-7A9A-44D8-95D5-9DCAB43B4B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0652C687-7A9A-44D8-95D5-9DCAB43B4B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{555B86CE-2EFB-4D68-AB45-31ED755F621D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555B86CE-2EFB-4D68-AB45-31ED755F621D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555B86CE-2EFB-4D68-AB45-31ED755F621D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555B86CE-2EFB-4D68-AB45-31ED755F621D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A279DD19-6AF8-4200-B144-2E22A1CF7C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A279DD19-6AF8-4200-B144-2E22A1CF7C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A279DD19-6AF8-4200-B144-2E22A1CF7C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A279DD19-6AF8-4200-B144-2E22A1CF7C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DE13E1-CE30-4A53-B52D-F3B6447AC637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DE13E1-CE30-4A53-B52D-F3B6447AC637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DE13E1-CE30-4A53-B52D-F3B6447AC637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DE13E1-CE30-4A53-B52D-F3B6447AC637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2630083D-03F6-4DFC-AED2-65DDFE222E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2630083D-03F6-4DFC-AED2-65DDFE222E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2630083D-03F6-4DFC-AED2-65DDFE222E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2630083D-03F6-4DFC-AED2-65DDFE222E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D8541A-21BD-4884-9E78-F3D611AE2E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D8541A-21BD-4884-9E78-F3D611AE2E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D8541A-21BD-4884-9E78-F3D611AE2E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D8541A-21BD-4884-9E78-F3D611AE2E08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31799F60-E168-4BB3-BDE1-82CB43D8C78F} = {A3313CC2-6E35-41A6-AF56-C8A0983D465A}
+		{0652C687-7A9A-44D8-95D5-9DCAB43B4B4D} = {95B9B1B6-1A80-4C9D-8435-57C3A07FD3D2}
+		{555B86CE-2EFB-4D68-AB45-31ED755F621D} = {02B9BA6D-0804-458E-B098-41E6DC371F0E}
+		{A279DD19-6AF8-4200-B144-2E22A1CF7C64} = {0C60299F-D738-4785-B2D9-E3BE6B76283E}
+		{C5DE13E1-CE30-4A53-B52D-F3B6447AC637} = {BF3BA055-2CA4-4FFC-A5E4-2FEBB7BFC8F3}
+		{2630083D-03F6-4DFC-AED2-65DDFE222E74} = {BF3BA055-2CA4-4FFC-A5E4-2FEBB7BFC8F3}
+		{49D8541A-21BD-4884-9E78-F3D611AE2E08} = {BF3BA055-2CA4-4FFC-A5E4-2FEBB7BFC8F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {560DB020-01BC-4921-B286-C4582FBA5B44}
+	EndGlobalSection
+EndGlobal
