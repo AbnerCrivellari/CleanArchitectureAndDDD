@@ -14,6 +14,8 @@ namespace ThisneyTicket.Domain.Model
         public string Email { get; private set; }
         public DateTime BirthDate { get; private set; }
 
+        public IList<Ticket> Ticket { get; set; }
+
         protected User() { }
         public User(string name, string document, int typeDocument, string phone, string email, DateTime birthDate)
         {

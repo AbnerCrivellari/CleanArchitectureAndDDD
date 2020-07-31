@@ -13,8 +13,9 @@ namespace ThisneyTicket.Domain.Model
         public int Quantity { get; private set; }
         public string Description { get; private set; }
         public bool Blocked { get; private set; }
-        public DateTime Date { get; private set; }    
-        
+        public DateTime Date { get; private set; }
+        public IList<Ticket> Ticket { get; set; }
+
         protected Event() { }
 
         public Event(string name, string photo, int type, int quantity, bool blocked, string description, DateTime date)
