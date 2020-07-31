@@ -15,5 +15,14 @@ namespace ThisneyTicket.Application.ViewModel
         public Enums.EventType TypeEvent { get; set; }
         public bool Blocked { get; set; }
         public DateTime Date { get; set; }
+        public void ValidateInformation()
+        {
+            if (string.IsNullOrEmpty(Name))
+                throw new ArgumentException("The event name cannot be null.");
+            if (Quantity <= 0)
+                throw new ArgumentException("The quantity has to be more than 0.");
+            if (string.IsNullOrEmpty(Description))
+                throw new ArgumentException("The event Description cannot be null.");
+        }
     }
 }
