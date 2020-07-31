@@ -15,4 +15,4 @@ namespace ThisneyTicket.Domain.Interface
         Task DeleteAsync(T entity);
     }
 }
-}
+

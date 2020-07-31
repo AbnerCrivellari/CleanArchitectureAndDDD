@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ThisneyTicket.Domain.Interface;
 
 namespace ThisneyTicket.Domain.Model
 {
-    public class Event : Base
+    public class Event : Base, IEntityConfig
     {
-
         public string Name { get; private set; }
         public string Photo { get; private set; }
         public int TypeEvent { get; private set; }
@@ -16,7 +16,7 @@ namespace ThisneyTicket.Domain.Model
         public DateTime Date { get; private set; }
         public IList<Ticket> Ticket { get; set; }
 
-        protected Event() { }
+        protected Event(){}
 
         public Event(string name, string photo, int type, int quantity, bool blocked, string description, DateTime date)
         {
