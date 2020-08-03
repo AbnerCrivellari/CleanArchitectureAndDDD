@@ -17,7 +17,7 @@ Domain
 Infrasctruture
 UnitTests
 5. Tecnologias
-ASP.NET API Versioning
+.Net Core 
 Swashbuckle (Swagger)
 Entity Framework
 xUnit
